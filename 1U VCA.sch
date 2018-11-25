@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VcoMaximus:Thonkiconn J1
+U 1 1 5B826AB5
+P 4050 2400
+F 0 "J1" H 4104 2692 50  0000 C CNN
+F 1 "IN1" H 4104 2601 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 4050 2400 50  0001 C CNN
+F 3 "" H 4050 2400 50  0001 C CNN
+	1    4050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VcoMaximus:Thonkiconn J2
+U 1 1 5B826ACF
+P 4150 1750
+F 0 "J2" H 4204 2042 50  0000 C CNN
+F 1 "CV1" H 4204 1951 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 4150 1750 50  0001 C CNN
+F 3 "" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VcoMaximus:Thonkiconn J3
+U 1 1 5B826B28
+P 4650 1250
+F 0 "J3" H 4704 1542 50  0000 C CNN
+F 1 "OUT1" H 4704 1451 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 4650 1250 50  0001 C CNN
+F 3 "" H 4650 1250 50  0001 C CNN
+	1    4650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VcoMaximus:Thonkiconn J4
+U 1 1 5B826B63
+P 4800 1900
+F 0 "J4" H 4854 2192 50  0000 C CNN
+F 1 "IN2" H 4854 2101 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 4800 1900 50  0001 C CNN
+F 3 "" H 4800 1900 50  0001 C CNN
+	1    4800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VcoMaximus:Thonkiconn J5
+U 1 1 5B826B80
+P 4850 2400
+F 0 "J5" H 4904 2692 50  0000 C CNN
+F 1 "CV2" H 4904 2601 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 4850 2400 50  0001 C CNN
+F 3 "" H 4850 2400 50  0001 C CNN
+	1    4850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VcoMaximus:Thonkiconn J6
+U 1 1 5B826B9B
+P 5000 2950
+F 0 "J6" H 5054 3242 50  0000 C CNN
+F 1 "OUT2" H 5054 3151 50  0000 C CNN
+F 2 "4ms-footprints:PJ301M-12" H 5000 2950 50  0001 C CNN
+F 3 "" H 5000 2950 50  0001 C CNN
+	1    5000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:LED LED1
+U 1 1 5B826C12
+P 2850 1650
+F 0 "LED1" H 2900 1939 45  0000 C CNN
+F 1 "LED" H 2900 1855 45  0000 C CNN
+F 2 "LEDs:LED_D3.0mm_FlatTop" H 2880 1800 20  0001 C CNN
+F 3 "" H 2850 1650 60  0001 C CNN
+	1    2850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:LED LED2
+U 1 1 5B826C82
+P 2850 2150
+F 0 "LED2" H 2900 2439 45  0000 C CNN
+F 1 "LED" H 2900 2355 45  0000 C CNN
+F 2 "LEDs:LED_D3.0mm_FlatTop" H 2880 2300 20  0001 C CNN
+F 3 "" H 2850 2150 60  0001 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
